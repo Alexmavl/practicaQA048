@@ -47,7 +47,7 @@ test.describe('Suite Automatizada - Buggy Cars Rating (https://buggy.justtestit.
       contentType: 'image/png',
     });
     await testInfo.attach('datos-usuario-registrado', {
-      body: `Usuario: ${username} | Password: ${password} | Fecha: ${new Date().toISOString()}`,
+      body: `Usuario: ${username} | Fecha: ${new Date().toISOString()}`,
       contentType: 'text/plain',
     });
 
